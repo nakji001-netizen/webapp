@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>진로 탐색 포털</title>
+    <style>
+        /* 전체 페이지 배경 및 폰트 설정 */
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        
+        /* 메인 제목 스타일 */
+        h1 {
+            color: #102a43;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        /* 버튼들을 담는 컨테이너 */
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* 개별 버튼 스타일 */
+        .link-btn {
+            display: block;
+            padding: 18px 20px;
+            background-color: #ffffff;
+            color: #334e68;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        /* 마우스를 올렸을 때(또는 터치했을 때) 효과 */
+        .link-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+            background-color: #007bff;
+            color: #ffffff;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🧭 나의 진로 탐색 포털</h1>
+
+    <div class="link-container">
+        <!-- 첫 번째 링크 -->
+        <a href="https://career-e8vtdjaum4husfbmy4pcj8.streamlit.app/" target="_blank" class="link-btn">
+            🔍 진로 탐색기
+        </a>
+        
+        <!-- 두 번째 링크 -->
+        <a href="https://nakji001-netizen.github.io/major-explorer/" target="_blank" class="link-btn">
+            🎓 진로 연계 학과 탐색기
+        </a>
+        
+        <!-- 세 번째 링크 -->
+        <a href="https://geometrycareer-iznpecjptdmtlswsb9lhao.streamlit.app/" target="_blank" class="link-btn">
+            📐 기하-전공 연결고리 탐색기
+        </a>
+    </div>
+
+</body>
+</html>
